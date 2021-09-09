@@ -1,0 +1,215 @@
+<!-- Readme.md v1.5.2.0
+UniversalStorageStockResourceFuelCell (QBUS)  
+created: 11 Aug 2018
+updated: 11 Aug 2021 -->
+
+<h2 id="download-on-curseforge-or-github-or-spacedock-also-available-on-ckan">Download on <a href="https://www.curseforge.com/kerbal/ksp-mods/universalstoragestockresourcefuelcell">Curseforge</a> or <a href="https://github.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/">Github</a> or <del><a href="http://spacedock.info/mod/">SpaceDock</a></del>. Also available on <a href="http://forum.kerbalspaceprogram.com/index.php?/topic/90246-*">CKAN</a>.</h2>
+<h1 id="kerbguise-experimental-engineering-kgex">KerbGuise Experimental engineering (KGEx)</h1>
+<h4 id="brings-you">Brings you:</h4>
+<h1 id="isru-thanks-but-no-tanks-qbtt">ISRU Thanks But No Tanks (QBTT)</h1>
+<p>Module Manager Script for converting the Universal Storage Fuel Cell to use Liquid Fuel and Oxidizer instead of other resources.</p>
+<p>Available on CKAN as <code>UniversalStorageStockResourceFuelCell</code>.</p>
+<p>Supports Fuel Cells in <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/68043-*" title="Universal Storage">Universal Storage</a>.<br />
+CKAN:StockalikeMiningExtension</p>
+<h4 id="adopted-by-zer0kerbal-originally-by-quickbasic">Adopted by <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/190933-zer0kerbal/" title="zer0Kerbal (zed&#39;K)">@zer0Kerbal</a>, originally by <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/148013-quickbasic/" title="QuickBASIC">@QuickBASIC</a></h4>
+<p><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/master/json/mod.json" alt="Mod Version" /> <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/master/json/ksp.json&amp;logo=data:image/webp;base64,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" title="Kerbal Space Program" alt="KSP version" /> <a href="https://opensource.org/licenses/MIT" title="Expat-MIT"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/master/json/license.json&amp;logoColor=white&amp;logo=data:image/svg+xml;base64,PHN2ZyAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIiAgIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIgICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiICAgeG1sbnM6aW5rc2NhcGU9Imh0dHA6Ly93d3cuaW5rc2NhcGUub3JnL25hbWVzcGFjZXMvaW5rc2NhcGUiICAgd2lkdGg9IjI1NiIgICBoZWlnaHQ9IjI1NiIgICBpZD0ic3ZnMiIgICB2ZXJzaW9uPSIxLjEiICAgaW5rc2NhcGU6dmVyc2lvbj0iMC40NyByMjI1ODMiICAgc29kaXBvZGk6ZG9jbmFtZT0ibGljZW5zZXMtbWl0LnN2ZyI+ICA8ZGVmcyAgICAgaWQ9ImRlZnM0Ij4gICAgPGlua3NjYXBlOnBlcnNwZWN0aXZlICAgICAgIHNvZGlwb2RpOnR5cGU9Imlua3NjYXBlOnBlcnNwM2QiICAgICAgIGlua3NjYXBlOnZwX3g9IjAgOiA1MjYuMTgxMDkgOiAxIiAgICAgICBpbmtzY2FwZTp2cF95PSIwIDogMTAwMCA6IDAiICAgICAgIGlua3NjYXBlOnZwX3o9Ijc0NC4wOTQ0OCA6IDUyNi4xODEwOSA6IDEiICAgICAgIGlua3NjYXBlOnBlcnNwM2Qtb3JpZ2luPSIzNzIuMDQ3MjQgOiAzNTAuNzg3MzkgOiAxIiAgICAgICBpZD0icGVyc3BlY3RpdmUxMCIgLz4gICAgPGlua3NjYXBlOnBlcnNwZWN0aXZlICAgICAgIGlkPSJwZXJzcGVjdGl2ZTI4ODQiICAgICAgIGlua3NjYXBlOnBlcnNwM2Qtb3JpZ2luPSIwLjUgOiAwLjMzMzMzMzMzIDogMSIgICAgICAgaW5rc2NhcGU6dnBfej0iMSA6IDAuNSA6IDEiICAgICAgIGlua3NjYXBlOnZwX3k9IjAgOiAxMDAwIDogMCIgICAgICAgaW5rc2NhcGU6dnBfeD0iMCA6IDAuNSA6IDEiICAgICAgIHNvZGlwb2RpOnR5cGU9Imlua3NjYXBlOnBlcnNwM2QiIC8+ICA8L2RlZnM+ICA8c29kaXBvZGk6bmFtZWR2aWV3ICAgICBpZD0iYmFzZSIgICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIgICAgIGJvcmRlcmNvbG9yPSIjNjY2NjY2IiAgICAgYm9yZGVyb3BhY2l0eT0iMS4wIiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAuMCIgICAgIGlua3NjYXBlOnBhZ2VzaGFkb3c9IjIiICAgICBpbmtzY2FwZTp6b29tPSIwLjk4OTk0OTQ5IiAgICAgaW5rc2NhcGU6Y3g9IjEzMy40NzU2MSIgICAgIGlua3NjYXBlOmN5PSIxMTUuMDYyMTciICAgICBpbmtzY2FwZTpkb2N1bWVudC11bml0cz0icHgiICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJsYXllcjEiICAgICBzaG93Z3JpZD0iZmFsc2UiICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9Ijg3NiIgICAgIGlua3NjYXBlOndpbmRvdy1oZWlnaHQ9IjY4NCIgICAgIGlua3NjYXBlOndpbmRvdy14PSI3IiAgICAgaW5rc2NhcGU6d2luZG93LXk9IjI5OSIgICAgIGlua3NjYXBlOndpbmRvdy1tYXhpbWl6ZWQ9IjAiIC8+ICA8bWV0YWRhdGEgICAgIGlkPSJtZXRhZGF0YTciPiAgICA8cmRmOlJERj4gICAgICA8Y2M6V29yayAgICAgICAgIHJkZjphYm91dD0iIj4gICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2Uvc3ZnK3htbDwvZGM6Zm9ybWF0PiAgICAgICAgPGRjOnR5cGUgICAgICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+ICAgICAgICA8ZGM6dGl0bGU+PC9kYzp0aXRsZT4gICAgICA8L2NjOldvcms+ICAgIDwvcmRmOlJERj4gIDwvbWV0YWRhdGE+ICA8ZyAgICAgaW5rc2NhcGU6bGFiZWw9IkxheWVyIDEiICAgICBpbmtzY2FwZTpncm91cG1vZGU9ImxheWVyIiAgICAgaWQ9ImxheWVyMSIgICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsLTc5Ni4zNjIxOCkiPiAgICA8cGF0aCAgICAgICBzb2RpcG9kaTp0eXBlPSJhcmMiICAgICAgIHN0eWxlPSJmaWxsOiNmZmZmZmY7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjE1LjM0OTE3MTY0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLW9wYWNpdHk6MTtzdHJva2UtZGFzaGFycmF5Om5vbmUiICAgICAgIGlkPSJwYXRoMzY4NSIgICAgICAgc29kaXBvZGk6Y3g9IjEzMi4zMjk5OSIgICAgICAgc29kaXBvZGk6Y3k9IjEzNC43ODE2OSIgICAgICAgc29kaXBvZGk6cng9IjExMy4xMzcwOCIgICAgICAgc29kaXBvZGk6cnk9IjEwOS4wOTY0NyIgICAgICAgZD0ibSAyNDUuNDY3MDYsMTM0Ljc4MTY5IGEgMTEzLjEzNzA4LDEwOS4wOTY0NyAwIDEgMSAwLC0wLjAwMiIgICAgICAgdHJhbnNmb3JtPSJtYXRyaXgoMS4wNTcyMjg1LDAsMCwxLjA5MzAyMjcsLTEyLjA0MTI5MSw3NzcuNTQ3ODIpIiAgICAgICBzb2RpcG9kaTpzdGFydD0iMCIgICAgICAgc29kaXBvZGk6ZW5kPSI2LjI4MzE2NzkiICAgICAgIHNvZGlwb2RpOm9wZW49InRydWUiIC8+ICAgIDx0ZXh0ICAgICAgIHhtbDpzcGFjZT0icHJlc2VydmUiICAgICAgIHN0eWxlPSJmb250LXNpemU6Ni44OTQ2NjU3MnB4O2ZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6bm9ybWFsO2ZvbnQtc3RyZXRjaDpub3JtYWw7bGluZS1oZWlnaHQ6MTI1JTtmaWxsOiMwMDAwMDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmU7Zm9udC1mYW1pbHk6QXJpYWw7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpBcmlhbCIgICAgICAgeD0iMzQuNDA5NzU2IiAgICAgICB5PSI4NjkuMDYxMDQiICAgICAgIGlkPSJ0ZXh0MzcxMCIgICAgICAgc29kaXBvZGk6bGluZXNwYWNpbmc9IjEyNSUiICAgICAgIHRyYW5zZm9ybT0ic2NhbGUoMC44OTA4MDUxLDEuMTIyNTgpIj48dHNwYW4gICAgICAgICBzb2RpcG9kaTpyb2xlPSJsaW5lIiAgICAgICAgIGlkPSJ0c3BhbjM3MTIiICAgICAgICAgeD0iMzQuNDA5NzU2IiAgICAgICAgIHk9Ijg2OS4wNjEwNCIgICAgICAgICBzdHlsZT0iZm9udC1zaXplOjEyNC4xMDM5NzMzOXB4O2ZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LXN0cmV0Y2g6bm9ybWFsO3RleHQtYWxpZ246c3RhcnQ7bGluZS1oZWlnaHQ6MTI1JTt3cml0aW5nLW1vZGU6bHItdGI7dGV4dC1hbmNob3I6c3RhcnQ7Zm9udC1mYW1pbHk6QXJpYWw7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpBcmlhbCBCb2xkIj5NSVQ8L3RzcGFuPjwvdGV4dD4gIDwvZz48L3N2Zz4=" title="Expat-MIT" alt="License Expat-MIT" /></a> <a href="https://opensource.org/licenses/MIT" title="Expat-MIT"><img src="https://i.postimg.cc/bvjfsMP5/MIT-17x17.png" title="Expat-MIT" alt="Expat-MIT" /></a></p>
+<p><a href="https://www.curseforge.com/kerbal/ksp-mods/universalstoragestockresourcefuelcell"><img src="https://img.shields.io/badge/CurseForge-Listed-blue.svg?labelColor=black&amp;style=plastic&amp;logo=curseforge" title="Curseforge" alt="Curseforge" /></a> <a href="http://forum.kerbalspaceprogram.com/index.php?/topic/90246-*"><img src="https://img.shields.io/badge/CKAN-Indexed-blue.svg?labelColor=black&amp;style=plastic" title="CKAN" alt="CKAN" /></a> <a href="https://github.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/"><img src="https://img.shields.io/badge/Github-Indexed-blue.svg?labelColor=black&amp;style=plastic&amp;logo=github" title="GitHub" alt="GitHub" /></a> <a href="http://spacedock.info/mod/"><img src="https://img.shields.io/badge/SpaceDock-Listed-blue.svg?labelColor=black&amp;style=plastic&amp;logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA1MDAgNTAwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MDAgNTAwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzFBMUExQTt9Cgkuc3Qxe2ZpbGw6IzA1Nzg5Mzt9Cgkuc3Qye2ZpbGw6IzA3QUNEMjt9Cjwvc3R5bGU+CjxwYXRoIGlkPSJYTUxJRF8xXyIgY2xhc3M9InN0MCIgZD0iTTQwMCwwLjZIMTAwYy01NSwwLTEwMCw0NS0xMDAsMTAwVjQwMGMwLDU1LDQ1LDEwMCwxMDAsMTAwaDMwMGM1NSwwLDEwMC00NSwxMDAtMTAwVjEwMC42CglDNTAwLDQ1LjYsNDU1LDAuNiw0MDAsMC42eiIvPgo8ZyBpZD0iWE1MSURfNl8iPgoJPGcgaWQ9IlhNTElEXzlfIj4KCQk8cGF0aCBpZD0iWE1MSURfMTdfIiBjbGFzcz0ic3QxIiBkPSJNMTgzLjMsMTY1LjljNi40LTMuNiwxNi45LTMuNiwyMy4zLDBMNDY3LjQsMzE0YzYuNCwzLjYsNi40LDkuNiwwLDEzLjJMMjA2LjYsNDc0LjQKCQkJYy02LjQsMy42LTE3LjcsNi42LTI1LDYuNmgtNDQuOGMtNy40LDAtOC4xLTMtMS43LTYuNmwyNjEtMTQ3LjJjNi40LTMuNiw2LjQtOS42LDAtMTMuMkwxNzEsMTg2Yy02LjQtMy42LTYuNC05LjYsMC0xMy4yCgkJCUwxODMuMywxNjUuOXoiLz4KCTwvZz4KCTxnIGlkPSJYTUxJRF84XyI+CgkJPHBhdGggaWQ9IlhNTElEXzE2XyIgY2xhc3M9InN0MiIgZD0iTTMxOC44LDE5Yy03LjQsMC0xOC42LDIuOC0yNSw2LjRMMzMsMTczLjRjLTYuNCwzLjYtNi40LDkuNSwwLDEzLjFsMjYwLjcsMTQ3LjEKCQkJYzYuNCwzLjYsMTYuOSwzLjYsMjMuMywwbDEyLjMtN2M2LjQtMy42LDYuNC05LjUsMC0xMy4ybC0yMjUuMS0xMjdjLTYuNC0zLjYtNi40LTkuNSwwLTEzLjJMMzY1LjYsMjUuNGM2LjQtMy42LDUuNi02LjQtMS43LTYuNAoJCQlIMzE4Ljh6Ii8+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==" title="SpaceDock" alt="SpaceDock" /></a></p>
+<p><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/master/json/code.json" alt="Code" /> <img src="https://img.shields.io/badge/KSP-AVC--supported-brightgreen.svg?style=plastic" alt="KSP-AVC" /> <img src="https://github.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/workflows/Validate%20AVC%20.version%20files/badge.svg" alt="Validate AVC .version files" /></p>
+<hr />
+<p><img src="https://" alt="UniversalStorageStockResourceFuelCell" /></p>
+<hr />
+<h4 id="cabin-notes">Cabin notes</h4>
+<ul>
+<li>WIP - work in progress</li>
+<li>Am open to adding more features, great project for someone!</li>
+<li>I have not personally tested the patches</li>
+<li>Have a request? Glad to have them, kindly submit through GitHub.</li>
+</ul>
+<hr />
+<h3 id="localizations">Localizations</h3>
+<blockquote>
+<p>WIP <em>Additions and corrections solicited and welcome!</em></p>
+</blockquote>
+<p>See the <a href="https://github.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/blob/master/GameData/UniversalStorageStockResourceFuelCell/Localization/readme.md" title="Localization">README in the Localization folder</a> for instructions for adding or improving translations for languages other than English. GitHub push is the best way to contribute.</p>
+<hr />
+<h3 id="how-to-support-this-and-many-other-mods-by-zer0kerbal">How to support this and many other mods by <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/190933-zer0kerbal/" title="zer0Kerbal (zed&#39;K)"><code>@zer0kerbal</code></a></h3>
+<p><a href="https://www.paypal.com/donate?hosted_button_id=R9ACWD7VREBCY" title="PayPal"><img src="https://img.shields.io/badge/Buy%20me%20some%20-LFO-00457C?style=for-the-badge&amp;logo=paypal&amp;labelColor=FFDD00" title="PayPal" alt="Support" /></a> <a href="https://www.patreon.com/bePatron?u=23390503" title="Patreon"><img src="https://img.shields.io/badge/Patreon%20-be%20a%20Patron-FF424D?style=for-the-badge&amp;logo=patreon" title="Patreon" alt="Patreon" /></a> <a href="https://github.com/sponsors/zer0Kerbal" title="Github Sponsors"><img src="https://img.shields.io/badge/Github%20-Sponsor-EA4AAA?style=for-the-badge&amp;logo=githubsponsors" title="Github Sponsors" alt="Github Sponsor" /></a> <a href="https://buymeacoffee.com/zer0Kerbal" title="Buy Me A Snack"><img src="https://img.shields.io/badge/Buy%20Me%20a%20-Snack!-FFDD00?style=for-the-badge&amp;logo=buymeacoffee" title="Buy Me A Snack" alt="Buy zer0Kerbal a snack" /></a></p>
+<hr />
+<h3 id="discussions">Discussions</h3>
+<p><em>See <a href="https://github.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/discussions" title="Discussions">Discussions</a> or [KSP Forums][MOD:threads] for discussions and news on this mod</em></p>
+<hr />
+<h3 id="installation-directions">Installation Directions</h3>
+<ul>
+<li>Use CKAN<br />
+<img src="https://i.postimg.cc/x8XSVg4R/sj507JC.png" /></li>
+</ul>
+<h3 id="changelog-summary">Changelog Summary</h3>
+<ul>
+<li><em>See <a href="https://raw.githubusercontent.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/master/Changelog.cfg" title="Changelog">ChangeLog</a> for full details of mod changes</em></li>
+</ul>
+<h3 id="known-issues">Known Issues</h3>
+<ul>
+<li><em>See <a href="https://github.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/wiki/Known-Issues" title="Known Issues">Known Issues</a> for full details of feature requests, and known issues</em></li>
+</ul>
+<h3 id="dependencies">Dependencies</h3>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+<a href="http://kerbalspaceprogram.com/" title="Kerbal Space Program">Kerbal Space Program</a> <a href="http://kerbalspaceprogram.com/" title="Kerbal Space Program"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/master/json/ksp.json&amp;logo=data:image/webp;base64,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" title="Kerbal Space Program" /></a> <em><strong>may</strong></em> work on other versions (YMMV)</li>
+<li><input type="checkbox" disabled="" checked="" />
+<a href="http://forum.kerbalspaceprogram.com/index.php?/topic/50533-*" title="ModuleManager">Module Manager</a></li>
+<li><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/68043-*" title="Universal Storage">Universal Storage</a></li>
+</ul>
+<h3 id="recommends">Recommends</h3>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/179207-*" title="Kerbal Change Log">Kerbal Change Log</a></li>
+</ul>
+<h2 id="suggests">Suggests</h2>
+<ul class="task-list">
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191424-*" title="SimpleConstructon!">SimpleConstructon! (SCON!)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191045-*" title="SimpleLogistics!">SimpleLogistics! (SLOG!)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191504-*" title="Not So SimpleConstructon!">Not So SimpleConstructon! (NSSC)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="http://forum.kerbalspaceprogram.com/index.php?/topic/202945-*" title="Keridian Dynamics Vessel Assembly (KDVA)">Keridian Dynamics Vessel Assembly (KDVA)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/203990-*" title="[The Gold Standard! (GOLD)">The Gold Standard! (GOLD)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191719-*" title="Stork Delivery System (SDS)">Stork Delivery System (SDS)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/202749-*" title="Komplexity (KMPX)">Komplexity (KPLX)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192938-*" title="KaboOom!">KaboOom! (BOOM)</a> another way to not go to space today</p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192489-*" title="Solar Science (SOLS)">Solar Science (SOLS)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/193050-*" title="Stock Inline Lights">Stock Inline Lights (SIL)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/204186-*" title="Mini Sample Return Capsule">Mini Sample Return Capsule (MSRC)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192742-*" title="Pteron (MSRV)">Pteron (MSRV)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192489-*" title="Solar Science (SOLS)">Solar Science (SOLS)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/189466-*" title="Jack-O&#39;-Lantern">Jack-O-Lantern (JACK)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191525-*" title="MoarKerbals">MoarKerbals(MOAR)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/187625-*" title="On Demand Fuel Cells">On Demand Fuel Cells (ODFC))</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*" title="Field Training Facility">Field Training Facility (FTF)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*" title="Field Training Lab">Field Training Lab (FTL)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192184-*" title="Docking Port Descriptions">Docking Port Descriptions(DPD)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192187-*" title="Shielded PicoPort">PicoPort Shielded (PPS)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/187495-*" title="Transparent Command Pods">Transparent Command Pods) (TCP)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/188246-*" title="More Hitchhikers">More Hitchhikers) (MHH)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191426-*" title="Biomatic">Biomatic (BIO)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/190870-*" title="B9 Stock Switches">B9 Stock Switches (B9S</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192360-*" title="Oh Scrap!">Oh Scrap!</a>:</p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192360-*" title="ScrapYard">ScrapYard</a>:</p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191719-*" title="DaMichel&#39;s AeroRadial">DaMichel's AeroRadial (DAR)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191719-*" title="DaMichel&#39;s CargoBays">DaMichel's CargoBays (DCB)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191719-*" title="DaMichel&#39;s Fuselage">DaMichel's Fuselage (DMF)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191719-*" title="DaMichel&#39;s Spherical Tanks">DaMichel's Spherical Tanks (DST)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://github.com/zer0Kerbal/SimpleCargo" title="Simple Cargo Solutions (SCS)">Simple Cargo Solutions (SCS)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192696-*" title="KerGuise Experimental Engineering">KerGuise Experimental Engineering (KGEx)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/179207-*" title="Kerbal Change Log">Kerbal Changelog</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/83007-*" title="Community Resource Pack">Community Resource Pack</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*" title="TweakScale">TweakScale</a></p></li>
+</ul>
+<h3 id="supports">Supports</h3>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/179207-*" title="Kerbal Change Log">Kerbal Change Log</a></li>
+<li><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/130352-*" title="Stockalike Mining Extension">Stockalike Mining Extension</a></li>
+</ul>
+<h3 id="conflicts">Conflicts</h3>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+none known</li>
+</ul>
+<h3 id="replaces">Replaces</h3>
+<ul>
+<li>none</li>
+</ul>
+<h3 id="tags">Tags</h3>
+<ul>
+<li>addon, resources</li>
+</ul>
+<hr />
+<div style="border:0.5px solid Tomato; background-color: lightgrey; color: #FF0000; text-align:center">
+<p><b>*red box below is a link to forum post on how to get support*</b>  
+<a href = "https://forum.kerbalspaceprogram.com/index.php?/topic/83212-*">
+  <img src = "https://i.postimg.cc/vHP6zmrw/image.png" alt="How to get support"></br></p></a></div>
+
+<h4 id="credits">Credits</h4>
+<blockquote>
+<p><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/148013-quickbasic/" title="QuickBASIC"><code>@QuickBASIC</code></a> for developing this mod</p>
+</blockquote>
+<hr />
+<h3 id="legal-mumbo-jumbo-license">Legal Mumbo Jumbo (License)</h3>
+<h4 id="current">Current</h4>
+<p>Forum: <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/204751-*" title="Mod Forum Thread">Thread</a><br />
+Source: <a href="https://github.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/">GitHub</a><br />
+License: <a href="https://opensource.org/licenses/MIT" title="Expat-MIT"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/master/json/license.json&amp;logoColor=white&amp;logo=data:image/svg+xml;base64,PHN2ZyAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIiAgIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIgICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiICAgeG1sbnM6aW5rc2NhcGU9Imh0dHA6Ly93d3cuaW5rc2NhcGUub3JnL25hbWVzcGFjZXMvaW5rc2NhcGUiICAgd2lkdGg9IjI1NiIgICBoZWlnaHQ9IjI1NiIgICBpZD0ic3ZnMiIgICB2ZXJzaW9uPSIxLjEiICAgaW5rc2NhcGU6dmVyc2lvbj0iMC40NyByMjI1ODMiICAgc29kaXBvZGk6ZG9jbmFtZT0ibGljZW5zZXMtbWl0LnN2ZyI+ICA8ZGVmcyAgICAgaWQ9ImRlZnM0Ij4gICAgPGlua3NjYXBlOnBlcnNwZWN0aXZlICAgICAgIHNvZGlwb2RpOnR5cGU9Imlua3NjYXBlOnBlcnNwM2QiICAgICAgIGlua3NjYXBlOnZwX3g9IjAgOiA1MjYuMTgxMDkgOiAxIiAgICAgICBpbmtzY2FwZTp2cF95PSIwIDogMTAwMCA6IDAiICAgICAgIGlua3NjYXBlOnZwX3o9Ijc0NC4wOTQ0OCA6IDUyNi4xODEwOSA6IDEiICAgICAgIGlua3NjYXBlOnBlcnNwM2Qtb3JpZ2luPSIzNzIuMDQ3MjQgOiAzNTAuNzg3MzkgOiAxIiAgICAgICBpZD0icGVyc3BlY3RpdmUxMCIgLz4gICAgPGlua3NjYXBlOnBlcnNwZWN0aXZlICAgICAgIGlkPSJwZXJzcGVjdGl2ZTI4ODQiICAgICAgIGlua3NjYXBlOnBlcnNwM2Qtb3JpZ2luPSIwLjUgOiAwLjMzMzMzMzMzIDogMSIgICAgICAgaW5rc2NhcGU6dnBfej0iMSA6IDAuNSA6IDEiICAgICAgIGlua3NjYXBlOnZwX3k9IjAgOiAxMDAwIDogMCIgICAgICAgaW5rc2NhcGU6dnBfeD0iMCA6IDAuNSA6IDEiICAgICAgIHNvZGlwb2RpOnR5cGU9Imlua3NjYXBlOnBlcnNwM2QiIC8+ICA8L2RlZnM+ICA8c29kaXBvZGk6bmFtZWR2aWV3ICAgICBpZD0iYmFzZSIgICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIgICAgIGJvcmRlcmNvbG9yPSIjNjY2NjY2IiAgICAgYm9yZGVyb3BhY2l0eT0iMS4wIiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAuMCIgICAgIGlua3NjYXBlOnBhZ2VzaGFkb3c9IjIiICAgICBpbmtzY2FwZTp6b29tPSIwLjk4OTk0OTQ5IiAgICAgaW5rc2NhcGU6Y3g9IjEzMy40NzU2MSIgICAgIGlua3NjYXBlOmN5PSIxMTUuMDYyMTciICAgICBpbmtzY2FwZTpkb2N1bWVudC11bml0cz0icHgiICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJsYXllcjEiICAgICBzaG93Z3JpZD0iZmFsc2UiICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9Ijg3NiIgICAgIGlua3NjYXBlOndpbmRvdy1oZWlnaHQ9IjY4NCIgICAgIGlua3NjYXBlOndpbmRvdy14PSI3IiAgICAgaW5rc2NhcGU6d2luZG93LXk9IjI5OSIgICAgIGlua3NjYXBlOndpbmRvdy1tYXhpbWl6ZWQ9IjAiIC8+ICA8bWV0YWRhdGEgICAgIGlkPSJtZXRhZGF0YTciPiAgICA8cmRmOlJERj4gICAgICA8Y2M6V29yayAgICAgICAgIHJkZjphYm91dD0iIj4gICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2Uvc3ZnK3htbDwvZGM6Zm9ybWF0PiAgICAgICAgPGRjOnR5cGUgICAgICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+ICAgICAgICA8ZGM6dGl0bGU+PC9kYzp0aXRsZT4gICAgICA8L2NjOldvcms+ICAgIDwvcmRmOlJERj4gIDwvbWV0YWRhdGE+ICA8ZyAgICAgaW5rc2NhcGU6bGFiZWw9IkxheWVyIDEiICAgICBpbmtzY2FwZTpncm91cG1vZGU9ImxheWVyIiAgICAgaWQ9ImxheWVyMSIgICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsLTc5Ni4zNjIxOCkiPiAgICA8cGF0aCAgICAgICBzb2RpcG9kaTp0eXBlPSJhcmMiICAgICAgIHN0eWxlPSJmaWxsOiNmZmZmZmY7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjE1LjM0OTE3MTY0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLW9wYWNpdHk6MTtzdHJva2UtZGFzaGFycmF5Om5vbmUiICAgICAgIGlkPSJwYXRoMzY4NSIgICAgICAgc29kaXBvZGk6Y3g9IjEzMi4zMjk5OSIgICAgICAgc29kaXBvZGk6Y3k9IjEzNC43ODE2OSIgICAgICAgc29kaXBvZGk6cng9IjExMy4xMzcwOCIgICAgICAgc29kaXBvZGk6cnk9IjEwOS4wOTY0NyIgICAgICAgZD0ibSAyNDUuNDY3MDYsMTM0Ljc4MTY5IGEgMTEzLjEzNzA4LDEwOS4wOTY0NyAwIDEgMSAwLC0wLjAwMiIgICAgICAgdHJhbnNmb3JtPSJtYXRyaXgoMS4wNTcyMjg1LDAsMCwxLjA5MzAyMjcsLTEyLjA0MTI5MSw3NzcuNTQ3ODIpIiAgICAgICBzb2RpcG9kaTpzdGFydD0iMCIgICAgICAgc29kaXBvZGk6ZW5kPSI2LjI4MzE2NzkiICAgICAgIHNvZGlwb2RpOm9wZW49InRydWUiIC8+ICAgIDx0ZXh0ICAgICAgIHhtbDpzcGFjZT0icHJlc2VydmUiICAgICAgIHN0eWxlPSJmb250LXNpemU6Ni44OTQ2NjU3MnB4O2ZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6bm9ybWFsO2ZvbnQtc3RyZXRjaDpub3JtYWw7bGluZS1oZWlnaHQ6MTI1JTtmaWxsOiMwMDAwMDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmU7Zm9udC1mYW1pbHk6QXJpYWw7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpBcmlhbCIgICAgICAgeD0iMzQuNDA5NzU2IiAgICAgICB5PSI4NjkuMDYxMDQiICAgICAgIGlkPSJ0ZXh0MzcxMCIgICAgICAgc29kaXBvZGk6bGluZXNwYWNpbmc9IjEyNSUiICAgICAgIHRyYW5zZm9ybT0ic2NhbGUoMC44OTA4MDUxLDEuMTIyNTgpIj48dHNwYW4gICAgICAgICBzb2RpcG9kaTpyb2xlPSJsaW5lIiAgICAgICAgIGlkPSJ0c3BhbjM3MTIiICAgICAgICAgeD0iMzQuNDA5NzU2IiAgICAgICAgIHk9Ijg2OS4wNjEwNCIgICAgICAgICBzdHlsZT0iZm9udC1zaXplOjEyNC4xMDM5NzMzOXB4O2ZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LXN0cmV0Y2g6bm9ybWFsO3RleHQtYWxpZ246c3RhcnQ7bGluZS1oZWlnaHQ6MTI1JTt3cml0aW5nLW1vZGU6bHItdGI7dGV4dC1hbmNob3I6c3RhcnQ7Zm9udC1mYW1pbHk6QXJpYWw7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpBcmlhbCBCb2xkIj5NSVQ8L3RzcGFuPjwvdGV4dD4gIDwvZz48L3N2Zz4=" title="Expat-MIT" alt="License Expat-MIT" /></a> <a href="https://opensource.org/licenses/MIT" title="Expat-MIT"><img src="https://i.postimg.cc/bvjfsMP5/MIT-17x17.png" title="Expat-MIT" /></a></p>
+<blockquote>
+<p>*** All bundled mods are distributed under their own licenses***<br />
+*** All art assets (textures, models, animations) are distributed under their own licenses***</p>
+</blockquote>
+<h3 id="original">Original</h3>
+<p><a href="https://forum.kerbalspaceprogram.com/">Thread</a><br />
+<a href="https://github.com/QuickBASIC/UniversalStorageStockResourceFuelCell/releases/latest">Download</a><br />
+Source: <a href="https://github.com/QuickBASIC/UniversalStorageStockResourceFuelCell">GitHub</a><br />
+License: <a href="https://opensource.org/licenses/MIT" title="Expat-MIT"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/master/json/license.json&amp;logoColor=white&amp;logo=data:image/svg+xml;base64,PHN2ZyAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIiAgIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIgICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiICAgeG1sbnM6aW5rc2NhcGU9Imh0dHA6Ly93d3cuaW5rc2NhcGUub3JnL25hbWVzcGFjZXMvaW5rc2NhcGUiICAgd2lkdGg9IjI1NiIgICBoZWlnaHQ9IjI1NiIgICBpZD0ic3ZnMiIgICB2ZXJzaW9uPSIxLjEiICAgaW5rc2NhcGU6dmVyc2lvbj0iMC40NyByMjI1ODMiICAgc29kaXBvZGk6ZG9jbmFtZT0ibGljZW5zZXMtbWl0LnN2ZyI+ICA8ZGVmcyAgICAgaWQ9ImRlZnM0Ij4gICAgPGlua3NjYXBlOnBlcnNwZWN0aXZlICAgICAgIHNvZGlwb2RpOnR5cGU9Imlua3NjYXBlOnBlcnNwM2QiICAgICAgIGlua3NjYXBlOnZwX3g9IjAgOiA1MjYuMTgxMDkgOiAxIiAgICAgICBpbmtzY2FwZTp2cF95PSIwIDogMTAwMCA6IDAiICAgICAgIGlua3NjYXBlOnZwX3o9Ijc0NC4wOTQ0OCA6IDUyNi4xODEwOSA6IDEiICAgICAgIGlua3NjYXBlOnBlcnNwM2Qtb3JpZ2luPSIzNzIuMDQ3MjQgOiAzNTAuNzg3MzkgOiAxIiAgICAgICBpZD0icGVyc3BlY3RpdmUxMCIgLz4gICAgPGlua3NjYXBlOnBlcnNwZWN0aXZlICAgICAgIGlkPSJwZXJzcGVjdGl2ZTI4ODQiICAgICAgIGlua3NjYXBlOnBlcnNwM2Qtb3JpZ2luPSIwLjUgOiAwLjMzMzMzMzMzIDogMSIgICAgICAgaW5rc2NhcGU6dnBfej0iMSA6IDAuNSA6IDEiICAgICAgIGlua3NjYXBlOnZwX3k9IjAgOiAxMDAwIDogMCIgICAgICAgaW5rc2NhcGU6dnBfeD0iMCA6IDAuNSA6IDEiICAgICAgIHNvZGlwb2RpOnR5cGU9Imlua3NjYXBlOnBlcnNwM2QiIC8+ICA8L2RlZnM+ICA8c29kaXBvZGk6bmFtZWR2aWV3ICAgICBpZD0iYmFzZSIgICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIgICAgIGJvcmRlcmNvbG9yPSIjNjY2NjY2IiAgICAgYm9yZGVyb3BhY2l0eT0iMS4wIiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAuMCIgICAgIGlua3NjYXBlOnBhZ2VzaGFkb3c9IjIiICAgICBpbmtzY2FwZTp6b29tPSIwLjk4OTk0OTQ5IiAgICAgaW5rc2NhcGU6Y3g9IjEzMy40NzU2MSIgICAgIGlua3NjYXBlOmN5PSIxMTUuMDYyMTciICAgICBpbmtzY2FwZTpkb2N1bWVudC11bml0cz0icHgiICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJsYXllcjEiICAgICBzaG93Z3JpZD0iZmFsc2UiICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9Ijg3NiIgICAgIGlua3NjYXBlOndpbmRvdy1oZWlnaHQ9IjY4NCIgICAgIGlua3NjYXBlOndpbmRvdy14PSI3IiAgICAgaW5rc2NhcGU6d2luZG93LXk9IjI5OSIgICAgIGlua3NjYXBlOndpbmRvdy1tYXhpbWl6ZWQ9IjAiIC8+ICA8bWV0YWRhdGEgICAgIGlkPSJtZXRhZGF0YTciPiAgICA8cmRmOlJERj4gICAgICA8Y2M6V29yayAgICAgICAgIHJkZjphYm91dD0iIj4gICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2Uvc3ZnK3htbDwvZGM6Zm9ybWF0PiAgICAgICAgPGRjOnR5cGUgICAgICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+ICAgICAgICA8ZGM6dGl0bGU+PC9kYzp0aXRsZT4gICAgICA8L2NjOldvcms+ICAgIDwvcmRmOlJERj4gIDwvbWV0YWRhdGE+ICA8ZyAgICAgaW5rc2NhcGU6bGFiZWw9IkxheWVyIDEiICAgICBpbmtzY2FwZTpncm91cG1vZGU9ImxheWVyIiAgICAgaWQ9ImxheWVyMSIgICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsLTc5Ni4zNjIxOCkiPiAgICA8cGF0aCAgICAgICBzb2RpcG9kaTp0eXBlPSJhcmMiICAgICAgIHN0eWxlPSJmaWxsOiNmZmZmZmY7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjE1LjM0OTE3MTY0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLW9wYWNpdHk6MTtzdHJva2UtZGFzaGFycmF5Om5vbmUiICAgICAgIGlkPSJwYXRoMzY4NSIgICAgICAgc29kaXBvZGk6Y3g9IjEzMi4zMjk5OSIgICAgICAgc29kaXBvZGk6Y3k9IjEzNC43ODE2OSIgICAgICAgc29kaXBvZGk6cng9IjExMy4xMzcwOCIgICAgICAgc29kaXBvZGk6cnk9IjEwOS4wOTY0NyIgICAgICAgZD0ibSAyNDUuNDY3MDYsMTM0Ljc4MTY5IGEgMTEzLjEzNzA4LDEwOS4wOTY0NyAwIDEgMSAwLC0wLjAwMiIgICAgICAgdHJhbnNmb3JtPSJtYXRyaXgoMS4wNTcyMjg1LDAsMCwxLjA5MzAyMjcsLTEyLjA0MTI5MSw3NzcuNTQ3ODIpIiAgICAgICBzb2RpcG9kaTpzdGFydD0iMCIgICAgICAgc29kaXBvZGk6ZW5kPSI2LjI4MzE2NzkiICAgICAgIHNvZGlwb2RpOm9wZW49InRydWUiIC8+ICAgIDx0ZXh0ICAgICAgIHhtbDpzcGFjZT0icHJlc2VydmUiICAgICAgIHN0eWxlPSJmb250LXNpemU6Ni44OTQ2NjU3MnB4O2ZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6bm9ybWFsO2ZvbnQtc3RyZXRjaDpub3JtYWw7bGluZS1oZWlnaHQ6MTI1JTtmaWxsOiMwMDAwMDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmU7Zm9udC1mYW1pbHk6QXJpYWw7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpBcmlhbCIgICAgICAgeD0iMzQuNDA5NzU2IiAgICAgICB5PSI4NjkuMDYxMDQiICAgICAgIGlkPSJ0ZXh0MzcxMCIgICAgICAgc29kaXBvZGk6bGluZXNwYWNpbmc9IjEyNSUiICAgICAgIHRyYW5zZm9ybT0ic2NhbGUoMC44OTA4MDUxLDEuMTIyNTgpIj48dHNwYW4gICAgICAgICBzb2RpcG9kaTpyb2xlPSJsaW5lIiAgICAgICAgIGlkPSJ0c3BhbjM3MTIiICAgICAgICAgeD0iMzQuNDA5NzU2IiAgICAgICAgIHk9Ijg2OS4wNjEwNCIgICAgICAgICBzdHlsZT0iZm9udC1zaXplOjEyNC4xMDM5NzMzOXB4O2ZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LXN0cmV0Y2g6bm9ybWFsO3RleHQtYWxpZ246c3RhcnQ7bGluZS1oZWlnaHQ6MTI1JTt3cml0aW5nLW1vZGU6bHItdGI7dGV4dC1hbmNob3I6c3RhcnQ7Zm9udC1mYW1pbHk6QXJpYWw7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpBcmlhbCBCb2xkIj5NSVQ8L3RzcGFuPjwvdGV4dD4gIDwvZz48L3N2Zz4=" title="Expat-MIT" alt="License Expat-MIT" /></a> <a href="https://opensource.org/licenses/MIT" title="Expat-MIT"><img src="https://i.postimg.cc/bvjfsMP5/MIT-17x17.png" title="Expat-MIT" /></a></p>
+<!-- graphical links to downloads -->
+
+<p><a href="https://www.curseforge.com/kerbal/ksp-mods/universalstoragestockresourcefuelcell"><img src="https://i.postimg.cc/RZNyB5vP/Download-On-Curse.png" /></a> <a href="https://github.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/"><img src="https://i.imgur.com/RE4Ppr9.png" /></a> <a href="http://spacedock.info/mod/"><img src="https://i.imgur.com/m0a7tn2.png" /></a></p>
+<p><em>Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date</em></p>
+<h6 id="v1000-original-11-aug-2018-0k-updated-06-sep-2021-zedk">v1.0.0.0 original: 11 Aug 2018 0K updated: 06 Sep 2021 zed'K</h6>
+<!-- graphical links to downloads -->
+
+<!--- original mod -->
+
+<!--- license  -->
+
+<!--- Support --->
+
+<!--- CKAN -->
+
+<!--- release links -->
+
+<!-- Kerbal Space Program -->
+
+<!-- zer0Kerbal mods -->
+
+<!--- static links --->
+
+<!--- this mod links --->  
+
+<!--- statics -->
+
+<!-- hero images -->
+
+<!-- financial support -->
