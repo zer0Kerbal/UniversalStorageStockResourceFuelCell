@@ -6,11 +6,11 @@ updated: 11 Aug 2021 -->
 
 ## Download on [Curseforge][CURSFG:url] or [Github][GITHUB:url] or ~~[SpaceDock][SPCDCK:url]~~. Also available on [CKAN][CKAN:url].  
 
-# KerbGuise Experimental engineering (KGEx)
+# KGEx
 
 #### Brings you:
 
-# ISRU Thanks But No Tanks (QBTT)
+# Universal Storage Stock Resource Fuel Cell (QBUS)
 Module Manager Script for converting the Universal Storage Fuel Cell to use Liquid Fuel and Oxidizer instead of other resources.
 
 Available on CKAN as `UniversalStorageStockResourceFuelCell`.
