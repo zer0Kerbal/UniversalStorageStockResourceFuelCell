@@ -15,8 +15,7 @@ Module Manager Script for converting the Universal Storage Fuel Cell to use Liqu
 
 Available on CKAN as `UniversalStorageStockResourceFuelCell`.
 
-Supports Fuel Cells in [Universal Storage][thread:us].  
-CKAN:StockalikeMiningExtension
+Supports Fuel Cells in [Universal Storage][thread:us]. (CKAN:UniversalStorage)  
 
 #### Adopted by [@zer0Kerbal][LINK:zer0kerbal], originally by [@QuickBASIC][LINK:QuickBASIC]  
 
