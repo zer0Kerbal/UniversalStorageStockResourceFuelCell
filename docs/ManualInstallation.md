@@ -6,7 +6,7 @@ tags: installation,directions,page,kerbal,ksp,zer0Kerbal,zedK
 ---
 <!-- ManualInstallation.md v1.0.0.0
 Universal Storage Stock Resource Fuel Cell (QBUS)
-created:
+created: 19 Apr 2023
 updated:
 
 TEMPLATE: ManualInstallation.md v1.1.9.0
