@@ -7,7 +7,7 @@ tags: legal,mumbo,jumbo,page,kerbal,ksp,zer0Kerbal,zedK
 <!--
 LegalMumboJumbo.md v1.0.0.0
 Universal Storage Stock Resource Fuel Cell (QBUS)
-created: 
+created: 19 Apr 2023
 updated: 
 
 TEMPLATE: LegalMumboJumbo.md v1.0.6.0
@@ -26,12 +26,18 @@ updated: 14 Apr 2023 -->
 <!-- no toc -->
 * Table of Contents
   * [License](#license)
+  * [Original License](#original-license)
   * [Forum Post #1](#forum-i)
   * [Forum Post #2](#forum-ii)
 
 ### License
 
 [License](./LegalMumboJumbo/License.md)
+[top](#legal-mumbo-jumbo)
+
+### Original License
+
+[License](./LegalMumboJumbo/OrigLicense.md)
 [top](#legal-mumbo-jumbo)
 
 ### Forum I
