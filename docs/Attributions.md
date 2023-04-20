@@ -7,7 +7,7 @@ tags: attributions,thank-you,directions,page,kerbal,ksp,zer0Kerbal,zedK
 <!--
 Attributions.md v1.0.0.0
 Universal Storage Stock Resource Fuel Cell (QBUS)
-created: 
+created: 19 Apr 2023
 updated: 
 
 TEMPLATE: Attributions.md v1.0.9.0
@@ -28,8 +28,7 @@ THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
 ### Credits
 
 <ul>
-  <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/93697-*/"><img alt="dtobi" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/set_resources_17/84c1e40ea0e759e3f1505eb1788ddf3c_default_photo.png" width="50px" height="50px" > DaMichel</a> for creating the <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/208107-*/" alt="DaMichel Ltd (KM)"> the DaMichel series of parts addons!</a></li>
-  <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/81209-*/"><img alt="Bezzier" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/set_resources_17/84c1e40ea0e759e3f1505eb1788ddf3c_default_photo.png" width="50px" height="50px" > Bezzier</a> for picking up where DaMichel left off (Color Curves)</li>
+  <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/148013-*/"><img alt="QuickBASIC" src="https://forum.kerbalspaceprogram.com/uploads/set_resources_17/84c1e40ea0e759e3f1505eb1788ddf3c_default_photo.png" width="50px" height="50px" > QuickBASIC</a> for creating the <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/204751-*/" alt="Universal Storage Stock Resource Fuel Cell (QBUS)"> Universal Storage Stock Resource Fuel Cell (QBUS) addon!</a></li>
   <li><i>Thank you to everyone who gave feedback! It's very important for me and highly appreciated.</i></li>
 </ul>
 
