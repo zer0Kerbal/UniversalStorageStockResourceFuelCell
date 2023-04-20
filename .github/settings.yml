@@ -11,7 +11,7 @@ repository:
   name: UniversalStorageStockResourceFuelCell
 
   # A short description of the repository that will show up on GitHub
-  description: KSP Module Manager config script to add a Universal Storage Fuel Cell that can use Liquid Fuel and Oxidizer instead of other resources.
+  description: ModularManagement config script to add a Universal Storage Fuel Cell that can use Liquid Fuel and Oxidizer instead of other resources.
 
   # A URL with more information about the repository
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/204751-*/
