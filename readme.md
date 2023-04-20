@@ -62,7 +62,7 @@ Most recent releases only available via CurseForge/OverWolf Website/App
   * [KIS No Fun][QBKN]
   * [ISRU Thanks But No Tanks (KBTT)][QBTT]
   * [Monero Flags (QBMF)][QBMF]
-  * [UniversalStorageStockResourceFuelCell (QBUS)][QBUS]
+  * [Universal Storage Stock Resource Fuel Cell (QBUS)][QBUS]
 
 ### Tags
 
@@ -163,7 +163,7 @@ Comment, click, like, share, up-vote, subscribe
 [QBTT]: https://www.curseforge.com/kerbal/ksp-mods/isruthanksbutnotanks "ISRU Thanks But No Tanks (QBTT)"
 [QBKN]: https://www.curseforge.com/kerbal/ksp-mods/kerbalinventorysystemnofun  "KIS No Fun (QBNF)"
 [QBMF]: https://www.curseforge.com/kerbal/ksp-mods/UniversalStorageStockResourceFuelCell  "Monero Flags (QBMF)"
-[QBUS]: https://www.curseforge.com/kerbal/ksp-mods/universalstoragestockresourcefuelcell "UniversalStorageStockResourceFuelCell (QBUS)"
+[QBUS]: https://www.curseforge.com/kerbal/ksp-mods/universalstoragestockresourcefuelcell "Universal Storage Stock Resource Fuel Cell (QBUS)"
 
 [MM]: https://www.curseforge.com/kerbal/ksp-mods/ModularManagement "ModularManagement (MM)"
 [m-m]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
