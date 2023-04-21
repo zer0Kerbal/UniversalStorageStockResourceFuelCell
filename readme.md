@@ -15,13 +15,13 @@ THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
 
 # [Universal Storage Stock Resource Fuel Cell (QBUS)][QBUS]
 
-ModularManagement config script to add a Universal Storage Fuel Cell that can use Liquid Fuel and Oxidizer instead of other resources.
+Adds an Universal Storage Fuel Cell that can use Liquid Fuel and Oxidizer instead of other resources.
 
 ## By [zer0Kerbal][zer0kerbal], originally by [QuickBASIC][auth-link]
 
 adopted with *express* permission and brought to you by *KerbSimpleCo*
 
-<img src="https://raw.githubusercontent.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/master/img/HeroLogo_1920x1920.png" alt="MoneroFlags Hero" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/master/img/HeroLogo_1920x1920.png" alt="Universal Storage Stock Resource Fuel Cell Hero" width="50%" height="50%">
 
 ### See more
 
@@ -62,7 +62,7 @@ Most recent releases only available via CurseForge/OverWolf Website/App
   * [KIS No Fun][QBKN]
   * [ISRU Thanks But No Tanks (KBTT)][QBTT]
   * [Monero Flags (QBMF)][QBMF]
-  * [UniversalStorageStockResourceFuelCell (QBUS)][QBUS]
+  * [Universal Storage Stock Resource Fuel Cell (QBUS)][QBUS]
 
 ### Tags
 
@@ -117,7 +117,7 @@ Comment, click, like, share, up-vote, subscribe
 [attrb]: https://zer0kerbal.github.io/UniversalStorageStockResourceFuelCell/Attributions "Attribution"
 [chlog]: https://raw.githubusercontent.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/master/changelog.md  "Changelog"
 [discu]: https://github.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/discussions "Discussions"
-[forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/204753-*/ "Monero Flags"
+[forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/204751-*/ "Universal Storage Stock Resource Fuel Cell"
 [issue]: https://github.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/issues "Issues"
 [notic]: https://zer0kerbal.github.io/UniversalStorageStockResourceFuelCell/Notices "Notices"
 [pages]: https://zer0kerbal.github.io/UniversalStorageStockResourceFuelCell "GitHub Pages"
@@ -163,7 +163,7 @@ Comment, click, like, share, up-vote, subscribe
 [QBTT]: https://www.curseforge.com/kerbal/ksp-mods/isruthanksbutnotanks "ISRU Thanks But No Tanks (QBTT)"
 [QBKN]: https://www.curseforge.com/kerbal/ksp-mods/kerbalinventorysystemnofun  "KIS No Fun (QBNF)"
 [QBMF]: https://www.curseforge.com/kerbal/ksp-mods/UniversalStorageStockResourceFuelCell  "Monero Flags (QBMF)"
-[QBUS]: https://www.curseforge.com/kerbal/ksp-mods/universalstoragestockresourcefuelcell "UniversalStorageStockResourceFuelCell (QBUS)"
+[QBUS]: https://www.curseforge.com/kerbal/ksp-mods/universalstoragestockresourcefuelcell "Universal Storage Stock Resource Fuel Cell (QBUS)"
 
 [MM]: https://www.curseforge.com/kerbal/ksp-mods/ModularManagement "ModularManagement (MM)"
 [m-m]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
