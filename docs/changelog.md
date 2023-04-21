@@ -21,7 +21,7 @@ CC BY-ND 4.0 by zer0Kerbal -->
 | spacedock  | (https://spacedock.info/mod/)                                                      |
 | ckan       | UniversalStorageStockResourceFuelCell                                              |
 
-## Version 1.0.0.0 - `<Thank you QuickBASIC>` edition
+## Version 1.0.0.0-release - `<Thank you QuickBASIC>` edition
 
 * Released
   * 20 Apr 2023
