@@ -12,8 +12,44 @@
 
 ## Version 1.0.0.0 - `<Thank you QuickBASIC>` edition
 
+* Released
+  * 20 Apr 2023
+  * for Kerbal Space Program 1.12.5
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Summary 1.0.0.0
+
 * fit and polish for final release
-* update HeroLogo1920x1920.png
+* update
+  * Hero Logo
+* Localize (en-us)
+
+### Changes 1.0.0.0
+
+* Create
+  * Localization directory and contents
+    * <en-us.cfg>
+    * [readme.md] v2.1.2.0
+    * [quickstart.md] v1.0.1.1
+* GitHub Pages
+  * docs/
+    * [`_config.yml`]
+    * [Attribution.md] v1.0.7.1
+    * [ManualInstallation.md] v1.1.8.0
+    * [404.md] v1.0.3.2
+    * [LegalMumboJumbo.md] v1.0.5.1
+    * [Localizations.md] v1.1.7.0
+    * [Notices.md] v1.0.1.0
+    * [Why.md] v1.1.0.0
+* Update
+  * License: {GPL-2.0}
+    * was: {Expat-MIT}
+* Issues
+  * closes #7 - Universal Storage Stock Resource Fuel Cell (QBUS) 1.0.0.0-release `<Thank you QuickBASIC>` edition
+  * closes #8 - 1.0.0.0 Additional Tasks
+  * closes #9 - Update License
+  * updates #10 - Localization - Master
+  * closes #11 - English <en-us.cfg>
 
 ---
 
