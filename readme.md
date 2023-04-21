@@ -10,7 +10,7 @@ updated: 15 Apr 2023
 THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
 
 [![Universal Storage Stock Resource Fuel Cell (QBUS)][SHD:mod]][CURSFG:url]  
-[![KSP version][KSP:shd]][KSP:url] [![License][LIC:shd]][LIC:url]
+[![KSP version][KSP:shd]][KSP:url] [![License][LIC:shd]][LIC:url]  
 [![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![GitHub Pages][SHD:pages]][pages]
 
 # [Universal Storage Stock Resource Fuel Cell (QBUS)][QBUS]
